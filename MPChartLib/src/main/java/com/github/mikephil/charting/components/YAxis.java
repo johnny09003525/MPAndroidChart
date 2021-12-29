@@ -214,6 +214,14 @@ public class YAxis extends AxisBase {
     }
 
     /**
+     *
+     * @param enabled
+     */
+    public void setDrawBottomYLabelEntry(boolean enabled) {
+        mDrawBottomYLabelEntry = enabled;
+    }
+
+    /**
      * set this to true to enable drawing the top y-label entry. Disabling this can be helpful
      * when the top y-label and
      * left x-label interfere with each other. default: true
